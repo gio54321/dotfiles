@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cp ~/.bashrc .
+cp ~/.vimrc .
+cp ~/.Xdefaults .
+cp -r ~/.vim .
+cp -r ~/.i3 .
+cp -r ~/.config .

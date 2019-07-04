@@ -1,0 +1,140 @@
+global !p
+texMathZones = ['texMathZone'+x for x in ['A', 'AS', 'B', 'BS', 'C', 'CS', 'D', 'DS', 'E', 'ES', 'F', 'FS', 'G', 'GS', 'H', 'HS', 'I', 'IS', 'J', 'JS', 'K', 'KS', 'L', 'LS', 'DS', 'V', 'W', 'X', 'Y', 'Z']]
+
+texIgnoreMathZones = ['texMathText']
+
+texMathZoneIds = vim.eval('map('+str(texMathZones)+", 'hlID(v:val)')")
+texIgnoreMathZoneIds = vim.eval('map('+str(texIgnoreMathZones)+", 'hlID(v:val)')")
+
+ignore = texIgnoreMathZoneIds[0]
+
+def math():
+	synstackids = vim.eval("synstack(line('.'), col('.') - (col('.')>=2 ? 1 : 0))")
+	try:
+		first = next(i for i in reversed(synstackids) if i in texIgnoreMathZoneIds or i in texMathZoneIds)
+		return first != ignore
+	except StopIteration:
+		return False
+endglobal
+
+snippet template "basic tempalte for note taking"
+\documentclass[10pt]{article}
+\usepackage[italian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[OT1]{fontenc}
+\usepackage{amsfonts, amsmath, amsthm, amssymb}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{xcolor}
+
+\title{$1}
+\author{Giorgio Dell'Immagine}
+\date{\today}
+\begin{document}
+\maketitle \tableofcontents
+\begin{document}
+$0
+\end{document}
+endsnippet
+
+snippet beg "\begin{} ... \end{}" bA
+\begin{$1}
+	$0
+\end{$1}
+endsnippet
+
+snippet sec "\section{}" bA
+\section{$1}
+$0
+endsnippet
+
+snippet ssec "\subsection{}" bA
+\subsection{$1}
+$0
+endsnippet
+
+snippet sssec "\subsubsection{}" bA
+\subsubsection{$1}
+$0
+endsnippet
+
+snippet ts "\subsubsection{testo: }" bA
+\subsubsection{Testo: $1}
+$0
+endsnippet
+
+snippet par "\paragraph{ }" bA
+\paragraph{$1}
+$0
+endsnippet
+
+snippet bf "\textbf{}" wA
+\textbf{${VISUAL}$1}$0
+endsnippet
+
+snippet --> "rightarrow" iA
+$\rightarrow$
+endsnippet
+
+snippet itemize "itemize" bA
+\begin{itemize}
+	\item $1
+\end{itemize}
+$0
+endsnippet
+
+snippet enumerate "enumerate" bA
+\begin{enumerate}
+	\item $1
+\end{enumerate}
+$0
+endsnippet
+
+global !p
+def fix_indent(snip):
+    vim.eval('feedkeys("\<c-f>")')
+endglobal
+
+post_expand "fix_indent(snip)"
+snippet it "Individual item" b
+\item $0
+endsnippet
+
+context "math()"
+snippet frac "\frac" wA
+\frac{$1}{$2}$0
+endsnippet
+
+context "math()"
+snippet int "\int" wA
+\int 
+endsnippet
+
+context "math()"
+snippet defint "definite integral" wA
+\int_{$1}^{$2}$0
+endsnippet
+
+context "math()"
+snippet vec "vector" wA
+\vec{$1}$0
+endsnippet
+
+snippet ml "inline math" wA
+$$1$ $0
+endsnippet
+
+snippet mat "line math" bA
+\[
+	$1
+.\]
+$0
+endsnippet
+
+context "math()"
+snippet '([A-Za-z])(\d)' "auto subscript" wrA
+`!p snip.rv = match.group(1)`_`!p snip.rv = match.group(2)`
+endsnippet
+
+

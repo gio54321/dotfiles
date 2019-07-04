@@ -1,0 +1,219 @@
+---
+title: "Tettonica delle placche"
+author: ["Giorgio Dell'Immagine"]
+date: "may 2019"
+...
+
+# L'interno della Terra
+## La struttura interna della Terra
+
+Determinare la composizione e le proprietà chimiche dell'interno della Terra è assai difficile in quanto non abbiamo diretto contatto con essa, essendo il raggio della terra $R_T=6370km$ e le perforazioni arrivano a un massimo di 6/7km.
+Le due principali fonti di conoscenza dell'interno della Terra sono il suo campo magnetico e le onde sismiche, che ci hanno permesso di arrivare a una teoria secondo la quale la Terra è stratificata.
+
+* Il campo gravitazionale ci dice che se $\rho$ della Terra fosse costante, allora la $F_G$ sarebbe la metà.
+* Le onde sismiche, grazie alla tecnica della __tomografia sismica__ hanno permesso di studiare i vari strati grazie alla rifrazione che comporta all'onda.
+
+### Crosta, mantello e nucleo
+
+Le principali discontinuità possono essere schematizzate:
+
+1. la __crosta__ è l'involucro piùesterno, che si allaccia al mantello superiore tramite la __discontinuità di Mohorovicic__ (pre gli amici __Moho__). spesore: {3km : 80/90km}
+2. il __mantello superiore__ che si estende dalla Moho fino a 400km di profondità. Tra 100km e 300km esiste una zona che attenua la velocità delle onde sismiche, chiamata __low velocity zone__ (ovunque per le S ma può esere assente per le P).
+3. la __zona di transizione__ separa il mantello superiore da quello inferiore e si estende da 40o km a 670km. Caratterizzata da bruschi aumenti delle velocità di propagazione delle onde (strutture mineralogiche più dense).
+4. il __mantello inferiore__ è la parte preponderante della Terra che costituisce il 49,2% della $M_T$. Va da 670km alla grande __discontinuità di Gutemberg__ a 2900km.
+5. il __nucleo esterno__ va da 2900km a 5200km e viene considerato liquido (le onde S non passano). In questa zona ha origine il $\vec{B_T}$.
+6. il __nucleo interno__ va da 5200km al centro della Terra. Si ritiene sia solido, anche se vicino al punto di fusione.
+
+### Litosfera, astenosfera e mesosfera
+
+Questa classificazione si basa sulle differenze di composizione chimica e mineralogiche, studiandone il comportamento __reologico__ (elastico / plastico).
+
+1. la __litosfera__ è il guscio più superficiale che è rigido e reagisce essenzialmente in modo elastico. Comprende la crosta fino alla low velocity zone.
+2. l'__astenosfera__ è lo strato composto da materiali allo stato parzialmente fuso in cui le onde si propagano a bassa velocità. Si trova compresa tra litosfera e mesosfera.
+3. la __mesosfera__ è la parte preponderante del mantello (circa dopo i 670km, tra astenosfera e nucleo) che è rigida e poco deformabile.
+
+## Il calore interno della Terra
+### Origine del calore interno
+
+Il calore interno della Terra ha origine varia:
+
+1. _conversione dell'energia cinetica in energia termica_ dei frammenti che cadevano sulla Terra
+2. _conversionde dell'energia potenziale gravitazionale in energia cinetica_, cioè l'attrito generato da grandi gocce di ferro fuso ("catastrofe del ferro"
+3. _riscaldamento adiabatico_ derivante dall'aumento della pressione derivato da un aumento della massa (grazie a bolidi).
+4. _radioattività di isotopi a vita breve_ che crea il __calore radiogeno__
+
+### Il gradiente geotermico
+
+Il __gradiente geotermico__ è l'aumento della temperatura ogni 100m, che è circa 2-3°K.
+Il __grado geotermico__ è l'intervallo per cui la temperatura aumenta di 1°K, che mediamente è 39m.
+La __geoterma__ è la curva profondità/temperatura.
+
+Le stime, abbastanza accettate, danno una stima di 3700°C per il limite nucleo-mantello e 5000°C per il centro della Terra.
+
+### Il flusso di calore
+
+La quantità di energia termica che sfugge dalla Terra per unità di area e di tempo è detto flusso di calore. L'unità di misura è l' $HFU=42 [\frac{mW}{m^2}]$ (heat flow unit). La media del valore del flusso di calore in tutti i continenti è 1,5HFU.
+
+Il 30/40 % del flusso di calore è dovuto alle rocce radioattive, il resto viene dal mantello. Il flusso di calore, quindi, decresce all'aumentare dell'età della roccia.
+
+## Il nucleo
+
+Il nucleo ha le dimensioni più o meno della luna e costituisce $0,16V_T$ e $0,32M_T$.
+Il campo magnetico terrestre si genera nel nucleo estrno mediante un'azione di correnti convettive.
+
+### La zona d'ombra
+
+Le onde P e S vengono riflesse/rifratte dalle discontinuità di $c$, per cui si creano delle zone d'ombra a dei certi angoli (che creano cerchi sulla sfera)
+
+* zona d'ombra P $\rightarrow$ da 103° a 143°
+* zona d'ombra S $\rightarrow$ da 103* a 180°
+
+### Composizione del nucleo
+
+Esperimenti hanno evidenziato che nel nucleo ci sono principalmente atomi con numero atomico maggiore di 23, queli nichel, cobalto, ferro e vanadio. In realtà la maggior parte è una lega di ferro e nikel, che però sarebbe troppo pesante per essere l'unico costituente.
+
+## Il mantello
+
+Il mantello è la parte più grande della Terra e si ritiene sia composto essenzialmente di silicati. 
+
+### Composizione del mantello
+
+### Correnti convettive nel mantello
+### Tomografia sismica
+
+## La crosta
+
+La crosta è la parte che sta sopra alla Moho, che è presente ovunque ed è caratterizzata da un amuento brusco della velocità delle onde P (da 6,6km a 8km). Esistono due tipi di crosta:
+
+* la __crosta continentale__ ha spessore variabile da 30 a 80/90km e costituisce il 79% del volume di tutta la crosta ($\rho_{medio} = 2,7$
+* la __crosta oceanica__ ha spessore da 5 a 15km e costituisce il 59% della superficie della crosta
+
+La crosta continentale è composta da:
+
+1. sedimenti e roccie sedimentarie
+2. gneiss e graniti
+3. dioriti e granuliti
+4. MOHO
+
+La crosta oceanica è composta da:
+
+1. acqua
+2. sedimenti
+3. basalto
+4. gabbro
+5. MOHO
+
+## Il campo magnetico della Terra
+Le prime osservazioni del campo magnetico terrestre si hanno nel 1600 nel trattato _De Magnete_ di Sir William Gilbert.
+Nei pressi del polo nord geografico si ha il polo sud magnetico e viceversa. L'inclinazione dell'ipotetico magnete rispetto all'asse terrestre è di 11°.
+
+Le tre caratteristiche fondamentali per descrivere il campo magnetico in un punto sono:
+
+* la __declinazione magnetica__ che è l'angolo tra il sud magnetico e il nord geografico
+* l'__inclinazione magnetica__ che è l'angolo che l'ago della bussola fa con la superficie (al sud magnetico è verticale)
+* L'__intensità__ misurata in Gauss o in Tesla
+
+I materiali magnetici perdono le loro proprietà sopra il punto di Curie, che è normalmente a 500°C. Non si sa per cui cosa avvenga all'interno dela Terra per formare un tale campo magnetico.
+
+## Il paleomagnetismo
+
+Si dice paleomagnetismo il campo magnetico che si trova fossilizzato nelle rocce. Esistono tre tipi di magnetizzazione rimanente:
+
+1. __magnetizzazione termorimanente__, che è acquisita dalle roccie quando esse passano dal punto di Curie e si raffreddano
+2. __magnetizzazione detritica__, che avviene quando i granuli ferromagnetici sedimentari si allineano son il campo terrestre, poi con la litizzazione si bloccano
+3. __magnetizzazione chimica__, è una magnetizzazione secondaria acquisita nella formazione chimica di materiali magnetici (es. ossidi di ferro)
+
+### Le inversioni di polarità e la stratigrafia magnetica
+
+Grazie al paleomagnetismo si può dire che il campo magnetico terrestre si è invertito numerose volte nel corso della storia della Terra. I periodi più lunghi (~mezzo milione di anni) sono chiamate __epoche magnetiche__. Durante le epoche si possono registrare brevi inversioni (~50 000/200 000 anni) dette __eventi magnetici__.
+
+Il fatto che le inversioni magnetiche si registrano contemporaneamente in tutta la Terra, permette di poter datare le rocce consistentemente anche se hanno avuto storie diverse.
+
+# La tettonica delle placche: una teoria unificante
+## Concetti gneerali e cenni storici
+
+La teoria della tettonica a placche si basa su due semplici idee:
+
+* La litosfera è divisa in blocchi definiti __placche__
+* Le placche possono spostersi liberamente in senso orizzontale
+
+Nessuna placca rimane ferma e ognuna influenza le altre. Questa teoria che vede le placche dinamiche è stata confermata da misurazioni di deriva dei continenti.
+
+## Che cosa è una placca litosferica
+
+Una placca litosferica, detta anche placca tettonica, è una piastra solida di roccia generalmente composta sia di litosfera continentale sia oceanica. Le dimensioni variano moltissimo, così come lo spessore, che va da 300km delle placche continentali a 5/10km a quelle oceaniche.
+
+## I margini delle placche
+Si individuano i margini di placca grazie agli ipocentri dei terremoti. Più dela 95% dei terremoti avviene lungo i margini di placca. I margini possono essere:
+
+* margini __trasformi o conservativi__ dove le faglie scorrono lateralmente
+* margini __divergenti o in accrescimento__ dove ci sono le dorsali oceaniche e viene creata nuova crosta
+* margini __convergenti o in cosumazione__ dove la placca oceanica subduce rispetto a quella continentale
+
+## Quando sono nate le placche 
+
+Le placche tettoniche sono nate dalla frammentazione del grande continente __pangea__, che aveva delle componenti rilevanti:
+
+* c'era un grande oceano detto __Panthalassa__ e un mare detto __Tetide__ che era l'antenato del mediterraneo
+* c'erano due zone dette __Aurasia__ e __Gondwana__, che si sono divise formando __Rodinia__ e __Laurentia__
+
+## Placche e terremoti
+
+Si distinguono 4 tipi di zone sismiche:
+
+1. sugli assi delle dorsali oceaniche i terremoti sono poco profondi (<70km) e accompagnati da attività vulcanica e flusso di calore
+2. caratterizzato da terremoti poco profondi ma senza attività vulcanica (es. faglia di San Andreas)
+3. piano di Benjoff
+4. zona continentale (birmania - mediterraneo) con sismicità elevata associata a catene montuose
+
+## Placche e vulcani
+
+Quasi la totalità dei vulcani si trova allineata con i margini di placca, solo pochi si trovano in mezzo.
+
+* __Vulcani legati alla subduzione__ Si trovano in corrispondenza delle fosse oceaniche e sono quelli del disegno del sistema arco fossa. Sono fortemente esplosivi.
+
+* __Vulcani legati alle dorsali oceaniche__ Le dorsali oceaniche, dal punto di vista vulumetrico, sono il centro maggiore per la produzione di lava. Esse sono infatti un'enorme serie di edifici vulcanici, perlopiù sottomarini, di tipo effusivo.
+
+* __Vulcani intraplacca__ Sono i punti caldi che la faglia gli scorre sopra e loro lasciano la scia di vulcani inattivi.
+
+# L'espansione del fondo oceanico
+
+## Le dorsali medio-oceaniche
+
+Il sistema delle dorsali medio-oceaniche è una catena di rigonfiamenti (cresta a 2,5/2,7km profondità) dove al centro la crosta digrada fino a 5/6km di profondità.
+
+## L'espansione del fondo oceanico
+
+Per trovare una spegazione alla modellazione delle fosse tettoniche, Harry Hammond Hess propose la teoria dell'espansione del fondo oceanico. Egli propose che il materiale del mantello salisse in corrispondenza delle dorsali e subducesse nelle fosse, andando così a rigenerare continuamente nuova crosta.
+
+## Prove dell'espansione oceanica
+Le prove dell'espansione oceanica sono:
+
+* __Le anomalie magnetiche__, cioè piccole variazioni (2%) dell'intensità del campo magnetico che si dispongono a bande, che si interrompono in corrispondenza delle zone di frattura. Esse sono causate dalla magnetizzazione termorimanente, che si addiziona o si sottrae a seconda dell'epoca geologica in cui è stata formata.
+* __L'età dei sedimenti oceanici__, cioè l'età dei sedimenti aumenta sistematicamente con l'allontanarsi della dorsale medio-oceanica.
+* __Il flusso di calore__ è più elevato nelle dorsali che nelle altre parti dell'oceano. 
+* __Il rapporto età profondità della crosta oceanica__, cioè mano a mano che la crosta si raffredda amuenta la sua densità, quindi per il principio dell'isostasia la profondità del fondale oceanico aumenta con la radice del tempo.
+* __I punti caldi__ che rimangono fermi mentre la crosta si muove
+* __Le faglie trasformi__ che sono la conseguenza del fatto che il fondale si espande non tutto ma a tratti, quindi ci possono essere delle zone di trascorrenza di taglio, dette zone di frattura
+
+# I margini continentali
+
+## Tipi di margine continentale
+
+Esistono tre tipi di margini continentali:
+
+1. I __margini continentali passivi__ che sono tipici dei continenti che si trovano ai bordi dei bacini oceanici in espansione e sono tettonicamente inattivi perché so trovamo sull'orlo posteriore del continente.
+2. I __margini continentali trasformi__ che sono derivati dal processo di espansione ma hanno brusche rigetti o deviazioni della spaccatura iniziale.
+3. I __margini continentali attivi__ che sono soggetti prevalentemente a sforzi compressivi. Questi margini sono situati sul bordo in posizione anteriore rispetta al movimento e coincidono con il confine della placca
+
+
+
+$$ \lim_{x \to 0} \frac{\int_0^{2x} \frac{t^2}{1+t^8}dt}{sin x^3}$$
+$$ \lim_{x \to 0} \frac{\frac{(2x)^2}{1+(2x)^8}}{3x^2 cos x^3} $$
+$$ \lim_{x \to 0} \frac{\frac{4x^2}{1+(2^8 x^8}}{3x^2 cos x^3}$$
+
+
+
+
+
+

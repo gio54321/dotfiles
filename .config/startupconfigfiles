@@ -1,0 +1,42 @@
+kcminputrc Mouse cursorTheme 'breeze_cursors'
+!/home/giorgio/.config/kcminputrc
+!/etc/xdg/kcminputrc
+!/home/giorgio/.local/share/config/kcminputrc
+!/usr/local/share/config/kcminputrc
+!/usr/share/config/kcminputrc
+*
+kcminputrc Mouse cursorSize ''
+!/home/giorgio/.config/kcminputrc
+!/etc/xdg/kcminputrc
+!/home/giorgio/.local/share/config/kcminputrc
+!/usr/local/share/config/kcminputrc
+!/usr/share/config/kcminputrc
+*
+ksplashrc KSplash Theme Breeze
+!/home/giorgio/.config/ksplashrc
+!/etc/xdg/ksplashrc
+!/home/giorgio/.local/share/config/ksplashrc
+!/usr/local/share/config/ksplashrc
+!/usr/share/config/ksplashrc
+*
+ksplashrc KSplash Engine KSplashQML
+!/home/giorgio/.config/ksplashrc
+!/etc/xdg/ksplashrc
+!/home/giorgio/.local/share/config/ksplashrc
+!/usr/local/share/config/ksplashrc
+!/usr/share/config/ksplashrc
+*
+kdeglobals KScreen ScreenScaleFactors ''
+/home/giorgio/.config/kdeglobals
+!/etc/xdg/kdeglobals
+!/home/giorgio/.local/share/config/kdeglobals
+!/usr/local/share/config/kdeglobals
+!/usr/share/config/kdeglobals
+*
+kcmfonts General forceFontDPI 0
+!/home/giorgio/.config/kcmfonts
+!/etc/xdg/kcmfonts
+!/home/giorgio/.local/share/config/kcmfonts
+!/usr/local/share/config/kcmfonts
+!/usr/share/config/kcmfonts
+*
